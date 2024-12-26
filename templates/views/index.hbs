@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="/img/smog-solid.svg" rel="icon">
+        <title> WEATHER APP</title>
+
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <h1>{{>header}}</h1>
+        <p class="name"> Use this site to get the weather</p>
+        <form>
+             <div id="NEW" class="container NEW mt-10 d-none">
+            <div class="row justify-content-center"></div>
+               <div class="col text-center">  
+               <input id="items-NEW" type="text" placeholder="Type the Location" style ="padding-left: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px;">
+               <button id="newsub" class="btn btn-outline-success" type="submit" style="padding:10px">Search</button>     
+            </div> 
+        </form>
+        <div class="ans">
+        <p id="message-one"></p>
+        <p id="message-two-location"></p>
+        <p id="temperature"></p>
+        <p id="desc"></p>
+       </div>
+    <script src="./js/index.js"></script>
+
+    </body>
+</html>

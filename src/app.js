@@ -12,6 +12,8 @@ const publicpath=path.join(__dirname,'../public')
 const viewsPath = path.join(__dirname, '../templates/views')
 const partialsPath=path.join(__dirname,'../templates/partials')
 
+
+
 app.set('view engine','hbs')
 app.use(express.static(publicpath))
 
